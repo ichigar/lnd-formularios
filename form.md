@@ -1,15 +1,15 @@
-# ¿Qué es form en HTML?
+# ¿Qué es ```<form>``` en HTML?
 #### El form en HTML es un contenedor que contiene campos para que las personas ingresen datos (como su nombre, correo, etc.) y luego lo envia al servidor servidor.
 ![Mi imagen local](img/form.png)
 
 ## Atributos del form
-### 1. action
+### 1. ```action```
 Define la URL a la que se enviarán los datos del formulario cuando el usuario lo envíe.
 Ejemplo:
 ```html
 <form action="procesar.php" method="post">
 ```
-### 2. method
+### 2. ```method```
 Especifica el método HTTP que se usará para enviar los datos. Los valores más comunes son:
 
 * **GET**: Envía los datos como parte de la URL.
@@ -18,17 +18,17 @@ Especifica el método HTTP que se usará para enviar los datos. Los valores más
 ```html
 <form action="procesar.php" method="post">
 ```
-### 3. name
+### 3. ```name```
 Define un nombre para el formulario, lo que permite referirse a él en scripts o al enviarlo a través de JavaScript.
 ```html
 <form name="miFormulario">
 ```
-### 4. id
+### 4. ```id```
 Asigna un identificador único al formulario
 ```html
 <form id="formularioContacto">
 ```
-### 5. target
+### 5. ```target```
 Determina dónde se abrirá la página de destino especificada en el atributo action. Como por ejemplo:
 
 * **_self**: Abre en la misma ventana o pestaña.
@@ -38,7 +38,7 @@ Determina dónde se abrirá la página de destino especificada en el atributo ac
 ```html
 <form action="gracias.html" target="_blank">
 ```
-### 6. enctype
+### 6. ```enctype```
 Especifica cómo se deben codificar los datos del formulario antes de enviarlos al servidor. Se usa principalmente cuando se envían archivos. Como por ejemplo:
 
 * **application/x-www-form-urlencoded**: Valor predeterminado; los datos se codifican como una cadena de texto en la URL.
@@ -47,7 +47,7 @@ Especifica cómo se deben codificar los datos del formulario antes de enviarlos 
 ```html
 <form action="upload.php" method="post" enctype="multipart/form-data">
 ```
-### 7. autocomplete
+### 7. ```autocomplete```
 Define si el navegador debe autocompletar los campos del formulario con datos previamente ingresados por el usuario. Como por ejemplo:
 
 * **on**: Activa el autocompletado.
@@ -55,17 +55,17 @@ Define si el navegador debe autocompletar los campos del formulario con datos pr
 ```html
 <form autocomplete="off">
 ```
-### 8. accept-charset
+### 8. ```accept-charset```
 Define el conjunto de caracteres que se usará para codificar los datos del formulario cuando se envíen al servidor.
 ```html
 <form action="procesar.php" accept-charset="UTF-8">
 ```
-### 9. novalidate
+### 9. ```novalidate```
 Desactiva la validación de los campos del formulario.
 ```html
 <form action="procesar.php" novalidate>
 ```
-### 10. role
+### 10. ```role```
 Define el rol del formulario en la interfaz de usuario, útil para accesibilidad.
 ```html
 <form role="form">
