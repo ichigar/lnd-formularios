@@ -3,3 +3,6 @@
 ## Usuarios del repositorio
 
 * ichigar
+* samuel
+* moni1992ka
+* mmichael110
