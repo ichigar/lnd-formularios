@@ -94,4 +94,4 @@ Define el rol del formulario en la interfaz de usuario, útil para accesibilidad
     <input type="submit" value="Enviar">
 </form>
 ```
-* *Pues aqui te pide tu nombre, el correo y te muestra un boton para enviar* 
+* *Pues aqui te pide tu nombre, el correo y te muestra un boton para enviar.* 
