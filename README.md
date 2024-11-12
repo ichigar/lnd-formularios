@@ -3,3 +3,4 @@
 ## Usuarios del repositorio
 
 * ichigar
+* testuser
