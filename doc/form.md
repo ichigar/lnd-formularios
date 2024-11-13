@@ -36,7 +36,7 @@ Determina dónde se abrirá la página de destino especificada en el atributo ac
 * **_parent**: Abre en la ventana o marco superior.
 * **_top**: Abre en la ventana principal.
 ```html
-<form action="gracias.html" target="_blank">
+<form action="gracias.php" target="_blank">
 ```
 ### 6. ```enctype```
 Especifica cómo se deben codificar los datos del formulario antes de enviarlos al servidor. Se usa principalmente cuando se envían archivos. Como por ejemplo:
@@ -75,18 +75,18 @@ Define el rol del formulario en la interfaz de usuario, útil para accesibilidad
 ```html
 <form id="miFormulario" action="/procesar_datos" method="post" target="_blank" enctype="multipart/form-data" autocomplete="on" accept-charset="UTF-8" novalidate>
     <label for="nombre">Nombre:</label>
-    <input type="text" id="nombre" name="nombre">
+    <input type="text" id="nombre" name="nombre"><br>
     <label for="email">Correo electrónico:</label>
-    <input type="email" id="email" name="email">
+    <input type="email" id="email" name="email"><br>
     <label for="archivo">Subir archivo:</label>
-    <input type="file" id="archivo" name="archivo">
+    <input type="file" id="archivo" name="archivo"><br>
     <input type="submit" value="Enviar">
 </form>
 ```
 * *El formulario recoge datos (nombre, correo, archivo), los envía a un servidor cuando se presiona "Enviar", y abre la respuesta en una nueva pestaña.*
 ### Ejemplo Básico: Formulario de Contacto
 ```html
-<form action="/enviar" method="post">
+<form action="enviar.php" method="post">
     <label for="name">Nombre:</label>
     <input type="text" id="name" name="name"><br><br>
     <label for="email">Correo:</label>
