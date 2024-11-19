@@ -1,1 +1,0 @@
-Nahuel Arancibia Fuenzalida

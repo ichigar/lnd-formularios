@@ -1,1 +1,0 @@
-Yeremy Travieso Galván - YeremyTG
