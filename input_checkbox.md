@@ -6,3 +6,14 @@ La etiqueta `<input type="checkbox">`git che en HTML se usa para crear una casil
 
 - Selección sí/no: Una sola casilla puede usarse para representar una opción, como "aceptar" o "no aceptar".
 
+### Atributos
+
+- Value: Este atributo define el valor que se enviará cuando el checkbox esté marcado. Si el usuario no selecciona la casilla, el valor no será enviado al servidor. Si se omite el atributo value, el valor predeterminado que se enviará será “on”.
+
+Ejemplo:
+
+`<input type="checkbox" id="newsletter" value="suscrito">
+<label for="newsletter">Suscríbete a la newsletter</label>`
+
+
+
