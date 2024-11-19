@@ -1,7 +1,3 @@
-.[!NOTE]
-Alejandro_Batista
-
-
 # ¿Qué es ```<form>``` en HTML?
 #### El form en HTML es un contenedor que contiene campos para que las personas ingresen datos (como su nombre, correo, etc.) y luego lo envia al servidor servidor.
 ![Mi imagen local](img/form.png)
