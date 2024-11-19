@@ -38,6 +38,14 @@ Ejemplo: `<input type="email" name="email" maxlength="50">`
 
 `</form>`
 
+2. Atributo pattern: Validación avanzada de formato
 
+`<form>`
 
+  `<label for="email">Correo Electrónico Corporativo:</label>`
 
+  `<input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@ejemplo.com$" title="Por favor, usa un correo de dominio @ejemplo.com" required>`
+
+  `<button type="submit">Enviar</button>`
+  
+`</form>`
