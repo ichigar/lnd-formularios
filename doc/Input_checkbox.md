@@ -1,3 +1,5 @@
+Monica Martins Argenti
+
 ## Input type - Checkbox
 
 La etiqueta `<input type="checkbox">`git che en HTML se usa para crear una casilla de verificación. Permite a los usuarios seleccionar una opción o varias en un formulario. Su característica principal es que puede estar marcada o desmarcada, lo que permite representar un estado de selección.
@@ -15,5 +17,9 @@ Ejemplo:
 `<input type="checkbox" id="newsletter" value="suscrito">
 <label for="newsletter">Suscríbete a la newsletter</label>`
 
+- Checked: Este es un atributo booleano que nos dice que el checkbox está marcado de manera predeterminada cuando la página se carga. Si deseas que el checkbox aparezca seleccionado al inicio, simplemente añade checked.
 
+`<input type="checkbox" id="terminos" value="acepto" checked>
+<label for="terminos">Acepto los términos y condiciones</label>`
 
+-
