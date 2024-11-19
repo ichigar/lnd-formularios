@@ -1,1 +1,0 @@
-Yeremy Gonzalez Corchado - NesteaMangoPiña
