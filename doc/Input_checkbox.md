@@ -22,4 +22,16 @@ Ejemplo:
 `<input type="checkbox" id="terminos" value="acepto" checked>
 <label for="terminos">Acepto los términos y condiciones</label>`
 
--
+- Name: Asigna un nombre al checkbox. Es esencial para enviar el valor del checkbox en un formulario.
+ 
+` <input type="checkbox" name="aceptar">`
+
+Ejemplo
+
+<body>
+    <form action="/enviar" method="post">
+        <input type="checkbox" name="terminos" value="aceptado" checked>
+        Acepto los términos y condiciones
+        <br>
+    </form>
+</body>
